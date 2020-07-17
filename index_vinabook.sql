@@ -1,0 +1,7 @@
+USE VINABOOK
+--drop INDEX Index_TenSach ON[dbo].[SACH]
+CREATE NONCLUSTERED INDEX Index_TenSach
+ON [dbo].[SACH] ([TEN_SACH])
+--drop INDEX Index_ID ON [dbo].[TAI_KHOAN]
+CREATE NONCLUSTERED INDEX Index_ID
+ON [dbo].[TAI_KHOAN] ([ID])
